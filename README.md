@@ -79,6 +79,8 @@ Using the ticker object and the function `history` extract stock information and
 
 Use the `requests` library to download the webpage https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0220EN-SkillsNetwork/labs/project/stock.html. Save the text of the response as a variable named `html_data`.
 
+![Alt text](./assets/screenshots/image18.png)
+
 Parse the html data using `beautiful_soup`.
 
 ![Alt text](./assets/screenshots/image14.png)
