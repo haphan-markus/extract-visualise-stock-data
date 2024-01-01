@@ -74,3 +74,17 @@ Using the ticker object and the function `history` extract stock information and
 **Reset the index** using the `reset_index(inplace=True)` function on the gme_data DataFrame and display the first five rows of the `gme_data` dataframe using the `head` function.
 
 ![Alt text](./assets/screenshots/image13.png)
+
+Parse the html data using `beautiful_soup`.
+
+![Alt text](./assets/screenshots/image14.png)
+
+Using `BeautifulSoup` or the `read_html` function extract the table with `GameStop Revenue` and store it into a dataframe named `gme_revenue`. The dataframe should have columns `Date` and `Revenue`.
+
+![Alt text](./assets/screenshots/image15.png)
+
+Display the last five rows of the `gme_revenue` dataframe using the `tail` function.
+
+![Alt text](./assets/screenshots/image16.png)
+
+![Alt text](./assets/screenshots/image17.png)
