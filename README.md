@@ -19,9 +19,9 @@ The project utilises Python libraries:
 
 These libraries need to be installed in the working environment before running the Jupyter Notebook, using Terminal or command prompt.
 
-# Visualisation
+# Tesla stock and revenue dashboard
 
-    * Extracting Tesla Stock Data Using yfinance
+    1. Extracting Tesla Stock Data Using yfinance
 
 ![Alt text](./assets/screenshots/image1.png)
 
@@ -35,7 +35,7 @@ The `teslaData` Dataframe originally consists of 3400 rows with 7 columns.
 
 ![Alt text](./assets/screenshots/image4.png)
 
-    * Extracting Tesla Revenue Data Using Webscraping
+    2. Extracting Tesla Revenue Data Using Webscraping
 
 ![Alt text](./assets/screenshots/image5.png)
 
@@ -54,3 +54,23 @@ Remove an null or empty strings in the `Revenue` column.
 Display the last 5 row of the `tesla_revenue` dataframe using the `tail` function.
 
 ![Alt text](./assets/screenshots/image9.png)
+
+    3. Tesla dashboard
+
+![Alt text](./assets/screenshots/image10.png)
+
+# Gamestop stock and revenue dashboard
+
+    1. Extracting Gamestop Stock Data using yfinance
+
+Using the `Ticker` function enter the ticker symbol of the stock we want to extract data on to create a ticker object. The stock is GameStop and its ticker symbol is `GME`.
+
+![Alt text](./assets/screenshots/image11.png)
+
+Using the ticker object and the function `history` extract stock information and save it in a dataframe named `gme_data`.
+
+![Alt text](./assets/screenshots/image12.png)
+
+**Reset the index** using the `reset_index(inplace=True)` function on the gme_data DataFrame and display the first five rows of the `gme_data` dataframe using the `head` function.
+
+![Alt text](./assets/screenshots/image13.png)
