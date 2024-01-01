@@ -93,8 +93,6 @@ Display the last five rows of the `gme_revenue` dataframe using the `tail` funct
 
 ![Alt text](./assets/screenshots/image16.png)
 
-![Alt text](./assets/screenshots/image17.png)
-
     3. Gamestop dashboard
 
 ![Alt text](./assets/screenshots/image19.png)
