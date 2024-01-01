@@ -31,6 +31,26 @@ The `teslaData` Dataframe originally consists of 3400 rows with 7 columns.
 
 ![Alt text](./assets/screenshots/image3.png)
 
-**Reset the index** using the `reset_index(inplace=True)` function on the tesla_data DataFrame and display the first five rows of the `teslaData` dataframe using the `head` function. Take a screenshot of the results and code from the beginning of Question 1 to the results below.
+**Reset the index** using the `reset_index(inplace=True)` function on the tesla_data DataFrame and display the first five rows of the `teslaData` dataframe using the `head` function.
 
 ![Alt text](./assets/screenshots/image4.png)
+
+    * Extracting Tesla Revenue Data Using Webscraping
+
+![Alt text](./assets/screenshots/image5.png)
+
+Using `BeautifulSoup` or the `read_html` function extract the table with `Tesla Revenue` and store it into a dataframe named `tesla_revenue`. The dataframe should have columns `Date` and `Revenue`.
+
+![Alt text](./assets/screenshots/image6.png)
+
+Remove the comma and dollar sign from the `Revenue` column. 
+
+![Alt text](./assets/screenshots/image7.png)
+
+Remove an null or empty strings in the `Revenue` column.
+
+![Alt text](./assets/screenshots/image8.png)
+
+Display the last 5 row of the `tesla_revenue` dataframe using the `tail` function.
+
+![Alt text](./assets/screenshots/image9.png)
